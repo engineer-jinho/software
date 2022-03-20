@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://squidfunk.github.io/mkdocs-material/</loc>
+         <lastmod>2022-03-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://squidfunk.github.io/mkdocs-material/01_util/util/</loc>
+         <lastmod>2022-03-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://squidfunk.github.io/mkdocs-material/02_ide/gti/</loc>
+         <lastmod>2022-03-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://squidfunk.github.io/mkdocs-material/02_ide/ide/</loc>
+         <lastmod>2022-03-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://squidfunk.github.io/mkdocs-material/03_network/network/</loc>
+         <lastmod>2022-03-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://squidfunk.github.io/mkdocs-material/04_plc_hmi/plc/</loc>
+         <lastmod>2022-03-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>

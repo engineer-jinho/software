@@ -1,0 +1,30 @@
+
+# Project information
+site_name: 주요 소프트웨어
+site_url: https://engineer-jinho.github.io/software/
+site_author: Jinho Jung
+site_description: >-
+  Create a branded static site from a set of Markdown files to host the
+  documentation of your Open Source or commercial project
+
+# Repository
+repo_name: engineer-jinho/software
+repo_url: https://github.com/engineer-jinho/software
+edit_uri: ""
+
+# Copyright
+copyright: Copyright &copy; 2016 - 2022 Jinho JUng
+
+
+# Theme
+theme:
+  name: material
+
+
+# Page tree
+nav:
+  - Home: index.md
+  - Util: "01_util/util.md"
+  - IDE: "02_ide/ide.md"
+  - Network: "03_network/network.md"
+  - "PLC/HMI": "04_plc_hmi/plc.md"
