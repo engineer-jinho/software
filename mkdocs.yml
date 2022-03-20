@@ -25,6 +25,8 @@ theme:
 nav:
   - Home: index.md
   - Util: "01_util/util.md"
-  - IDE: "02_ide/ide.md"
+  - IDE: 
+    - "02_ide/ide.md"
+    - "02_ide/git.md"
   - Network: "03_network/network.md"
   - "PLC/HMI": "04_plc_hmi/plc.md"
