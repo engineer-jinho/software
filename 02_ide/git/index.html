@@ -64,6 +64,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#git" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -282,9 +287,38 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Git
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         Git
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#git" class="md-nav__link">
+    Git 기본 사용법
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -334,6 +368,37 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#git" class="md-nav__link">
+    Git 기본 사용법
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
@@ -343,49 +408,37 @@
 
   <h1>Git</h1>
 
-<p>사용 순서</p>
+<h2 id="git">Git 기본 사용법</h2>
+<div class="admonition note">
+<p class="admonition-title">사용 순서</p>
 <ul>
-<li>
-<p>설치: Python, pip install mkdcos</p>
-</li>
-<li>
-<p>작업폴더 생성: mkdcos new "폴더"</p>
-</li>
-<li>
-<p>폴더 구조 정리</p>
-</li>
+<li>설치: Python, pip install mkdcos  </li>
+<li>작업폴더 생성: mkdcos new "폴더"</li>
+<li>폴더 구조 정리</li>
 <li>md 파일 및 폴더 생성</li>
 <li>img 및 video를 따로 관리하기도 함</li>
-<li>
-<p>mkdcos.yml에서 pages 설정</p>
-</li>
-<li>
-<p>테마 변경
-theme: readthedocs</p>
-</li>
-<li>
-<p>Build</p>
-</li>
+<li>mkdcos.yml에서 pages 설정</li>
+<li>테마 변경<br />
+  theme: readthedocs</li>
+<li>Build<br />
+  mkdocs build</li>
+<li>Admotion<br />
+  서식들로 주로 노트를 사용 </li>
 </ul>
-<p>mkdocs build</p>
-<ul>
-<li>
-<p>Admotion</p>
-</li>
-<li>
-<p>배포</p>
-</li>
-</ul>
-<p>git init
-git config user.name "사용자 이름"
-git config user.email "이메일 주소"
-git remote add origin [주소]
-mkdocs gh-deploy
-git add .
-git commit -m "최초 생성"
-git branch -M main
-git push -u origin main</p>
-<p>[사용자ID].github.io/[저장소 이름]</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">배포</p>
+<p>git init<br />
+git config user.name "사용자 이름"<br />
+git config user.email "이메일 주소"<br />
+git remote add origin [주소]<br />
+git add .<br />
+git commit -m "최초 생성"<br />
+git branch -M main<br />
+git push -u origin main  </p>
+<p>mkdocs gh-deploy
+[사용자ID].github.io/[저장소 이름]</p>
+</div>
 
               
             </article>
