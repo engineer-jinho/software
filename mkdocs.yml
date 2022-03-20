@@ -20,6 +20,9 @@ copyright: Copyright &copy; 2016 - 2022 Jinho JUng
 theme:
   name: material
 
+# Extensions
+markdown_extensions:
+  - admonition
 
 # Page tree
 nav:
